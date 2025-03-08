@@ -1,0 +1,332 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal global styling beyond Tailwind (optional) */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+  .p-4{
+    background-color: white;
+  }
+  .p-5{
+    display: flex;
+    background-color: black;
+    color: wheat;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  /* HOMEPAGE BEGIN */
+  .loginbtn{
+        font-size: 15px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+        border-radius: 15px;
+        padding: 10px;
+        border: 1px solid wheat;
+  }
+  .loginbtn:hover{
+    transform: scale(1.2);
+    border-radius: 50px;
+  }
+  /* ------------------------------ */
+  .signupbtn{
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid wheat;
+}
+.signupbtn:hover{
+transform: scale(1.2);
+border-radius: 50px;
+}
+  /* ------------------------------ */
+  .Aboutusbtn{
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid wheat;
+}
+.Aboutusbtn:hover{
+transform: scale(1.2);
+border-radius: 50px;
+}
+ /* ------------------------------ */
+ /* .text-xl{
+    margin-top: 15px;
+    display: flex;
+   } */
+   /* HOMEPAGE END */
+   .mt-4{
+    display: flex;
+    justify-content:space-between;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   }
+   .linkk{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    gap: 1vh;
+   }
+   /* AboutUS */
+   .p-Aboutus{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: wheat;
+    font-size: 1.5rem;
+   }
+   .q-aboutus{
+    display: flex;
+    background-color: black;
+   }
+   .r-aboutus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:0px;
+    background-color:black;
+    padding: 30px;
+    text-align: center;
+    
+   }
+   .aboutusp1{
+    font-size: 18px;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    margin: 33.5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .3s ease-in-out;
+   }
+   .aboutusp1:hover{
+    transform: scale(1.1);
+    border-radius: 50px;
+   }
+   .home-title1{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    transition: .3s ease-in-out;
+   }
+   .home-title1:hover{
+    transform: scale(1.1);
+   }
+.iconwala{
+    display: flex;
+    gap: 1vw;
+}
+.imgm{
+    height: 90%;
+    padding-top: 2.5%;
+}
+.imgm{
+    height: 90%;
+    padding-top: 2.5%;
+    transition: .3s ease-in-out;
+}
+.imgm:hover{
+    transform: scale(1.2);
+}
+   /* AboutUS */
+
+   /* login begins */
+   .loginpagepp{
+      position: relative;
+      text-align: center;
+   }
+   .imgloginpage{
+      
+      width: 100vw;
+      height: auto;
+   }
+   .innerlogin{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      width: 30vw;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      gap: 5px;
+      color: rgb(32, 32, 31);
+      background: rgba(57, 56, 56, 0.4); /* optional: semi-transparent background for readability */
+      padding: 10px;
+   }
+   .btnlon{
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(230, 224, 224);
+    margin-top: 10px;
+    border: 1px solid rgb(231, 225, 225);
+   }
+   .btnlon:hover{
+    transform: scale(1.0);
+    border-radius: 50px;
+   }
+   .form11{
+    background-color: rgb(84, 83, 81);
+    cursor: pointer;
+    border-radius: 0px;
+    border: 1px solid grey;
+    transition: .3s ease-in-out;
+   }
+   .form11:hover{
+    border-radius: 20px;
+   }
+   .form22{
+    cursor: pointer;
+    border-radius: 0px;
+    transition: .3s ease-in-out;
+    background-color: rgb(168, 162, 162);
+   }
+   .form22:hover{
+    border-radius: 20px;
+   }
+   .text-xl11{
+    color: rgb(236, 234, 230);
+   }
+   .pp{
+    color: rgb(226, 217, 217);
+   }
+   .ppp{
+    display: flex;
+    justify-content: center;
+   }
+   /* login ends */
+   /* signup page */
+   .imgsininpage{
+      width: 100vw;
+      height: auto;
+   }
+   .innersignup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 5px;
+    color: rgb(32, 32, 31);
+    background: rgba(57, 56, 56, 0.1); /* optional: semi-transparent background for readability */
+    padding: 10px;
+ }
+ .btnsin{
+  font-size: 15px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  border-radius: 15px;
+  padding: 10px;
+  color: rgb(230, 224, 224);
+  margin-top: 10px;
+  border: 2px solid rgb(231, 225, 225);
+ }
+ .btnsin:hover{
+  transform: scale(1.0);
+  border-radius: 50px;
+ }
+ .usersin1{
+  background-color: wheat;
+  cursor: pointer;
+  border-radius: 0px;
+  border: 1px solid grey;
+  transition: .3s ease-in-out;
+ }
+ .usersin1:hover{
+  border-radius: 20px;
+ }
+ .usersin2{
+  cursor: pointer;
+  border-radius: 0px;
+  transition: .3s ease-in-out;
+  background-color: wheat;
+ }
+ .usersin2:hover{
+  border-radius: 20px;
+ }
+ .text-xl{
+  color: rgb(236, 234, 230);
+  font-size: 30px;
+ }
+  /* signup page ends */
+  .dashbtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:2px;
+  }
+
+  /* .feed22{
+    display: flex;
+    justify-content: center;
+  } */
+   .feed22{
+    display: flex;
+    flex-direction: column;
+    color: white;
+   }
+   .feed221{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: burlywood;
+
+   }
+   .feed55{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    width: 100vw;
+    height: 93vh;
+    background-color: grey;
+   }
+   .feed33{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    width: 50vw;
+    background-color: rgb(227, 190, 123);
+    height: 50vh;
+   }
+   .htm{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: rgb(227, 190, 123);
+   }
+   .htn{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(227, 190, 123);
+   }

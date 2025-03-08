@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "username": "john",
+    "password": "123",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "image": "https://via.placeholder.com/80",
+    "repositories": [
+      {
+        "id": 1,
+        "title": "Math Notes"
+      },
+      {
+        "id": 2,
+        "title": "Physics Project"
+      },
+      {
+        "id": 3,
+        "title": "hello world"
+      },
+      {
+        "id": 4,
+        "title": "what is up world"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "alice",
+    "password": "abc",
+    "name": "Alice Wonderland",
+    "email": "alice@example.com",
+    "phone": "9876543210",
+    "image": "https://via.placeholder.com/80",
+    "repositories": []
+  },
+  {
+    "id": 3,
+    "username": "Asher",
+    "password": "eyes",
+    "name": "Mustafa",
+    "email": "",
+    "phone": "",
+    "image": "https://via.placeholder.com/80",
+    "repositories": [
+      {
+        "id": 1,
+        "title": "Asher is the greatest"
+      },
+      {
+        "id": 2,
+        "title": "Asher loves tea"
+      },
+      {
+        "id": 3,
+        "title": "Asher has great friends"
+      },
+      {
+        "id": 6,
+        "title": "hello world"
+      },
+      {
+        "id": 7,
+        "title": "What is all this fun"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "username": "Shuba",
+    "password": "ear",
+    "name": "Matam",
+    "email": "",
+    "phone": "",
+    "image": "https://via.placeholder.com/80"
+  },
+  {
+    "id": 5,
+    "username": "shub",
+    "password": "123",
+    "name": "m",
+    "email": "",
+    "phone": "",
+    "image": "https://via.placeholder.com/80",
+    "repositories": [
+      {
+        "id": 1,
+        "title": "hello world"
+      },
+      {
+        "id": 2,
+        "title": "2nd repository"
+      },
+      {
+        "id": 3,
+        "title": "shuba"
+      }
+    ]
+  }
+]
